@@ -1,3 +1,5 @@
+::-webkit-scrollbar {display: none;}
+
 @font-face {
   font-family: essenceSans;
   src: url(./../font/EssenceSans.ttf);
@@ -31,9 +33,108 @@ a{
 }
 
 .blue{
-	background-color: blue;
+	background-color: white;
 }
 
 .musicArtistPic button{
 	margin-top: 3%;
+}
+
+.modal-body{
+	margin: 0px;
+	padding: 0px;
+	height: 98vh;
+}
+
+.modal-dialog{
+	width: 100vw;
+	max-width: 100vw;
+	height: 90vh;
+	margin: 0px;
+	padding: 0px;
+}
+
+.modal-body .close{
+	padding: 0px;
+	margin-right: 5%;
+	position: absolute;
+	z-index: 1;
+	margin-left: 95%;
+}
+
+.modal-body .close span{
+	font-size: 200%;
+}
+
+body {
+background-color: lightblue;
+}
+
+.load{
+	
+	width: 100vw;
+	height: 100vh
+	
+	
+}
+
+.load img{
+	width: 20%;
+	vertical-align: middle;
+	display: block;
+	margin: auto auto;
+}
+
+.modal-body img{
+	display: block;
+	height: 20vh;
+	width: static;
+	object-fit: cover;
+  	object-position: center -20vw;
+  	margin: 0px;
+  	padding: 0px;
+}
+
+.modalInfo{
+	height: 98vh;
+	overflow: scroll;
+}
+
+.modalText{
+	margin: 20vh 0px 0px 5vw;
+}
+
+.modalInfo iframe{
+	width: 80%;
+	display: block;
+	margin: auto;
+}
+
+/*md*/
+@media only screen and (min-width: 768px) {
+	body {
+		background-color: red;
+	}
+}
+
+
+/*lg*/
+@media only screen and (min-width: 992px) {
+	body {
+		background-color: green;
+	}
+	.modal-body img{
+		display: block;
+		position: fixed;
+		height: 98vh;
+		width: 100vw;
+		object-fit: cover;
+	  	object-position: center center;
+	  	margin: 0px;
+	  	padding: 0px;
+	}
+}
+
+body {
+background-color: white;
 }
