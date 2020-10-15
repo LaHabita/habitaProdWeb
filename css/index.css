@@ -1,0 +1,39 @@
+@font-face {
+  font-family: essenceSans;
+  src: url(./../font/EssenceSans.ttf);
+}
+
+*{
+	font-family: essenceSans;
+	font-size: 100%;
+}
+
+img{
+	width: 100%;
+}
+
+.nav-tabs {
+	border: 0px;
+	border-bottom: 1px solid #dee2e6;
+}
+.nav-link {
+    display: block;
+    padding: 0px;
+}
+
+a{
+	color: black;
+	padding: 0px;
+}
+
+.red{
+	background-color: red;
+}
+
+.blue{
+	background-color: blue;
+}
+
+.musicArtistPic button{
+	margin-top: 3%;
+}
