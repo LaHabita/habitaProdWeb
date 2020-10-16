@@ -10,6 +10,18 @@
 	font-size: 100%;
 }
 
+.load img{
+	width: 100vw;
+}
+
+body{
+	display: none;
+}
+
+button {
+  outline: none;
+}
+
 .red{
 	background-color: red;
 }
@@ -28,8 +40,8 @@
 
 .navbar-icon{
 	display: inline-block;
-	width: 1.7em;
-	height: 1.7em;
+	width: 2em;
+	height: 2em;
 	vertical-align: middle;
 	content: "";
 	background: no-repeat center center;
@@ -66,4 +78,15 @@
 	text-align: center;
 	font-size: 150%;
 	margin-top: 20px;
+}
+
+.videoIndexContainer{
+	height: calc(100vh - 75px);
+	width: 100vw;
+}
+
+#videoIndex{
+	width: 100%;
+	height: 100%;
+  	outline: none;
 }
