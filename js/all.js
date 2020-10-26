@@ -1,4 +1,4 @@
-$( document ).ready(function() {
+$( window ).on( "load", function() {
 	$(".load").hide();
-	 $('body').fadeIn();
-});
+	$('body').fadeIn();
+})
