@@ -16,6 +16,7 @@
 
 body{
 	display: none;
+	margin-bottom: 50px;
 }
 
 button {
@@ -88,7 +89,7 @@ button {
 .textDiv{
 	text-align: center;
 	font-size: 150%;
-	margin-top: 20px;
+	margin-top: 50px;
 }
 
 .videoIndexContainer{
@@ -102,5 +103,5 @@ button {
 }
 
 .socialLink{
-	width: 100%;
+	width: 50px;
 }
