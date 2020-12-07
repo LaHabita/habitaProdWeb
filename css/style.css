@@ -316,7 +316,6 @@
   .portfolio-wrapper p {
     padding: 0 10%;
     line-height: 25px;
-    font-style: italic;
     color: #777; }
     @media (max-width: 620px) {
       .portfolio-wrapper p {
@@ -896,5 +895,9 @@
   .load{
     width: 100vw;
     text-align: center;
-    margin-top: 30vh;
+    margin-top: 25vh;
+  }
+
+  .load img{
+    max-width: 60vw;
   }
