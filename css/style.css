@@ -892,3 +892,9 @@
   .desdeLaHabitaVideo iframe{
     max-width: 80vw;
   }
+
+  .load{
+    width: 100vw;
+    text-align: center;
+    margin-top: 30vh;
+  }

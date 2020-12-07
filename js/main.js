@@ -1,6 +1,11 @@
-$(document).ready(function() {
 
-	
+$('.loading').hide();
+$( window ).on( "load", function() {
+	$(".load").hide();
+	$('.loading').fadeIn();
+})
+
+$(document).ready(function() {
 	/* Navigation burger onclick side navigation show */
 	$('.burger-container').on('click', function() {
 		$('.main-navigation').toggle('slow');
