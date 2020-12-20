@@ -341,7 +341,7 @@
     line-height: 24px;
     color: #c18f59; }
     .about-me__text p span {
-      font-size: 48px;
+      font-size: 24px;
       color: #fff; }
     @media (max-width: 620px) {
       .about-me__text p {
@@ -853,6 +853,9 @@
 
 .desdeLaHabitaText {
   text-align: center; }
+  .desdeLaHabitaText span{
+    font-size: 16px;
+  }
   .desdeLaHabitaText .universal-h1 {
     color: #fff;
     padding-bottom: 20px;
@@ -862,7 +865,7 @@
     line-height: 24px;
     color: #414141; }
     .desdeLaHabitaText p span {
-      font-size: 48px;
+      font-size: 24px;
       color: #fff; }
     @media (max-width: 620px) {
       .desdeLaHabitaText p {
