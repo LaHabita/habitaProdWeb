@@ -448,6 +448,7 @@
     position: absolute; }
 
 .fh5co-counter {
+  z-index: 0;
   position: relative;
   margin-bottom: 122px;
   padding: 40px 0;
