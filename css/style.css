@@ -231,7 +231,7 @@
   right: 0;
   height: calc(100% + 150px);
   width: 70%;
-  z-index: -1; }
+  z-index: 0; }
   .about-me-bckg:after {
     content: '';
     position: absolute;
@@ -282,6 +282,7 @@
     border-color: #fff; }
 
 .portfolio-wrapper {
+  z-index: 2;
   width: 390px;
   padding: 8px;
   text-align: center;
@@ -329,6 +330,7 @@
       width: 250px; } }
 
 .about-me__text {
+  z-index: 2;
   width: 44%;
   margin-right: 80px;
   text-align: center; }
