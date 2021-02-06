@@ -909,6 +909,20 @@
     width: unset;
   }
 
+  .goBack{
+    font-size: 14px;
+    display: block;
+    position: fixed;
+    z-index: 5;
+    background-color: #c18f59;
+    border-radius: 6px;
+    top: 5px;
+    right: 4vw;
+    padding: 5px;
+    color: white;
+    text-decoration: none;
+  }
+
 
   @media (min-width: 992px) {
     .cvImage{
