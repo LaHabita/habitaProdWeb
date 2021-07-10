@@ -663,7 +663,9 @@
   padding: 63px 0;
   background-image: url("../images/social-bckg.jpg");
   background-size: cover;
-  background-position: center; }
+  background-position: center;
+  margin-bottom: 63px;
+   }
   .fh5co-social::after {
     content: '';
     position: absolute;
@@ -894,7 +896,7 @@
     text-align: center;
   }
 
-  .desdeLaHabitaVideo iframe{
+  .desdeLaHabitaVideo a img{
     max-width: 80vw;
   }
 
@@ -932,4 +934,17 @@
   .portfolio{
     margin: 0 auto;
     width: 60vw;
+  }
+
+  .fixButton{
+    position: fixed;
+    bottom: 0px;
+    margin-bottom: 0px;
+    z-index: 3;
+    width: 100vw;
+    height: 60px;
+  }
+
+  .haziakImgModal{
+    width: 100%;
   }

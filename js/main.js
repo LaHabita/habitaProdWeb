@@ -3,6 +3,8 @@ $('.loading').hide();
 $( window ).on( "load", function() {
 	$(".load").hide();
 	$('.loading').fadeIn();
+	var myModal = new bootstrap.Modal(document.getElementById("exampleModal"), {});
+	myModal.show();
 })
 
 $(document).ready(function() {
